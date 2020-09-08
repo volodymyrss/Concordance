@@ -5,9 +5,9 @@ IACHEC Calibration Concordance
     
     a. 
     ```python
-    mapFit(Y, sigma, b, tau)`
+    mapFit(Y, sigma, b, tau)
     ```
-       This function calculates the posterior mean and variance of 'B' and 'G' under the log_normal model with known variance. 'Y' is the logarithm of the counts. Each row is observations from a same instrument; each column is observations of a same object. When the observation is missing, the value is -inf (-float('Inf) in python). 'sigma' are the known standard deviations. 'b' and 'tau' are the priors for 'B'. 
+    This function calculates the posterior mean and variance of 'B' and 'G' under the log_normal model with known variance. 'Y' is the logarithm of the counts. Each row is observations from a same instrument; each column is observations of a same object. When the observation is missing, the value is -inf (-float('Inf) in python). 'sigma' are the known standard deviations. 'b' and 'tau' are the priors for 'B'. 
      
     b. 
     ```python
